@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: bisque;
+    transition: all 0.25s ease;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/* Hero Section */
+
+#hero {
+    background: #f4f4f4;
+    padding: 5rem 2rem;
+}
+
+#hero h1 {
+    font-size: 42px;
+}
+
+#hero button {
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: #e2e2e2;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#hero button:hover {
+    background-color: #333;
+    transition: all 0.25s ease;
+    color: white;
+}
+
+
+
+/* About Me Section */
+#about {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+}
+
+#about h2 {
+    font-size: 28px;
+    padding: 10px;
+}
+
+
+/* Projects Section */
+#projects h2 {
+    font-size: 28px;
+    margin: 15px;
+    color: #333;
+}
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.project-item {
+    background: #e2e2e2;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #333;
+}
+
+
+
+/* Skills */
+#skills {
+    /* border: 1px solid red; */
+    margin: 15px;
+}
+
+#skills h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#skills ul li {
+    font-size: 18px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+  
